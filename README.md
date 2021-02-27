@@ -45,7 +45,7 @@ Navigating the files
 
 [this program](puzzle_maker.erl) is able to choose a random puzzle from 4_5_puzzles.txt, and generate the hints for it.
 
-[this program](crossword.erl) is able to look at the 20k words from google, find the subset of them that are defined in the dictionary from 1913, and then generate all possible crossword puzzles for a given board using those words.
+[this program](crossword.erl) is able to look at the 20k words from google, find the subset of them that are defined in the dictionary from 1913, and then generate all possible crossword puzzles for a given board using those words. Only tracks words with 3 or more letters.
 
 example of using crossword to find all combinations of words that make valid boards:
 ```
